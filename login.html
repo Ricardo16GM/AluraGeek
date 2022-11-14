@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Login</title>
+   <!-------- CSS --------->
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/login.css">
+   <link rel="stylesheet" href="css/animations.css">
+   <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+   <header>
+      <div class="logo">
+         <a href="index.html"><img src="img/Logo.svg" alt="Logo"></a>
+      </div>
+      <nav>
+         <div class="buscador__container">
+            <input type="text" placeholder="¿Qué desea buscar?" class="buscador__area">
+            <i class='bx bx-search-alt-2' style='color:#a2a2a2a2; font-size: 1.4rem;'></i>
+         </div>
+      </nav>
+   </header>
+   <main>
+      <h1>Iniciar Sesión</h1>
+      <div class="login__container">
+         <form class="login-form" action="https://formsubmit.co/luisricardogrande16@gmail.com">
+            <input class="login-input" type="email" placeholder="Escriba su correo electrónico" required>
+            <input class="login-input" type="password" placeholder="Escriba su contraseña" required>
+            <input class="btn-entrar" type="submit" value="Entrar">
+         </form>
+      </div>
+
+      <div class="contacto__container">
+         <div class="logo">
+            <img src="img/Logo.svg" alt="Logo">
+         </div>
+         <div class="contacto__descripcion">
+            <a class="contacto__link" href="#">Quines Somos</a>
+            <a class="contacto__link" href="#">politica y descripción</a>
+            <a class="contacto__link" href="#">Programa de fedelidad</a>
+            <a class="contacto__link" href="#">Nuestras tiendas</a>
+            <a class="contacto__link" href="#">Quiero se franquiciado</a>
+            <a class="contacto__link" href="#">anúncie aqui</a>
+         </div>
+         <div class="contacto__formulario">
+            <h2 class="contacto__titulo">Hable con nosotros</h2>
+            <form class="contact-form" action="https://formsubmit.co/luisricardogrande16@gmail.com" method="POST">
+               <input class="input-name" type="text" name="nombre" placeholder="Escribe tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="Nombre sólo acepta letras y espacios en blanco" required />
+               <textarea name="" id="" placeholder="Escribe tu mensaje">
+               </textarea>
+               <input class="btn-enviar" type="submit" value="Enviar mensaje" />
+            </form>
+         </div>
+      </div>
+   </main>
+</body>
+</html>

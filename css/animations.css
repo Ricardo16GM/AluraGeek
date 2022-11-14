@@ -1,0 +1,61 @@
+
+/* ====================== Header ====================== */
+.logo img {
+   cursor: pointer;
+}
+
+.buscador__area:hover {
+   cursor: text;
+}
+
+.btn-login:hover {
+   transition: .6s ease;
+   background-color: #2A7AE4;
+   color: #f5f5f5f5;
+   border-radius: 10px;
+}
+/* ==================================================== */
+
+/* ====================== banner ====================== */
+
+/* ==================================================== */
+
+/* ====================== Productos ====================== */
+
+
+.producto__card {
+   width: 12rem;
+}
+
+.producto__link:hover {
+   transition: .5s ease;
+   color: #0049a8;
+}
+/* ==================================================== */
+
+/* ====================== Contacto ====================== */
+
+
+
+
+.contacto__link:hover {
+   color: #0049a8;
+}
+
+.btn-enviar:hover {
+   background: #ffffff;
+   border: solid 1px #2A7AE4;
+   color: #2A7AE4;
+   transition: .5s ease;
+}
+/* ==================================================== */
+
+/* ====================== Footer ====================== */
+footer h2 {
+   color: #464646;
+   font-family: 'Raleway', sans-serif;
+   font-size: 1.2rem;
+   text-align: center;
+   padding-top: 2.5rem;
+}
+/* ==================================================== */

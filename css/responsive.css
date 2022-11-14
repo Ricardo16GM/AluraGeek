@@ -1,0 +1,211 @@
+/* ================== width 768px ==================*/
+@media screen and (max-width: 768px){
+
+   /* ====================== Productos ====================== */
+   .producto__card {
+      margin-top: 3rem;
+   }
+   /* ==================================================== */
+
+   /* ====================== Contacto ====================== */
+   .contacto__container {
+      display: flex;
+   }
+
+   .contacto__descripcion {
+      display: inline-block;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 80%;
+   }
+
+   .logo-contact {
+      display: none;
+   }
+
+   .contacto__logo{
+      width: 12rem;
+      height: 20%;
+      background: url(../img/Logo.svg) no-repeat;
+      background-position: center;
+      background-size: cover;
+   }
+
+   .contacto__descripcion a {
+      color: #464646;
+      padding-top: 1rem;
+   }
+
+   .contact-form {
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+   }
+
+   .input-name {
+      width: 20rem;
+      height: 2rem;
+   }
+
+   .contact-form textarea {
+      resize: none;
+      width: 20rem;
+      height: 5rem;
+      margin-top: 1rem;
+   }
+
+   .btn-enviar {
+      font-size: 1.2rem;
+      padding: .5rem;
+      width: 10rem;
+      margin-top: 1rem;
+   }
+   /* ====================================================== */
+}
+
+
+   /* ================== width 365px ==================*/
+@media screen and (max-width: 365px){
+
+   /* ====================== Header ====================== */
+   .logo {
+      margin-left: 1rem;
+   }
+
+   .buscador__container {
+      display: none;
+   }
+
+   .btn-login{
+      padding: .8rem 2rem;
+      margin-left: 4rem;
+   }
+   /* ==================================================== */
+
+   /* ====================== banner ====================== */
+   .banner__container img{
+      max-width: 100%;
+      width: 100%;
+      height: 10rem;
+   }
+   /* ==================================================== */
+
+   /* ====================== Productos ====================== */
+   .producto__titulo{
+      font-size: 1.6rem;
+   }
+
+   .producto__card {
+      margin-top: 3rem;
+      width: 9.5rem;
+      height: 16rem;
+   }
+
+   .producto__img {
+      height: 11.5rem;
+   }
+   /* ==================================================== */
+
+   /* ====================== Contacto ====================== */
+   .contacto__formulario {
+      height: 30%;
+      justify-content: center;
+   }
+
+   .contacto__container {
+      display: flex;
+      flex-direction: column;
+      margin-top: 4rem;
+      height: 90vh;
+   }
+
+   .contacto__descripcion {
+      display: inline-block;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 20%;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      text-align: center;
+   }
+
+   .logo-contact {
+      display: none;
+   }
+
+   .contacto__logo{
+
+      width: 12rem;
+      background: url(../img/Logo.svg) no-repeat;
+      background-position: center;
+   }
+
+   .contacto__descripcion a {
+      color: #464646;
+      padding-top: 1rem;
+   }
+
+   .contacto__formulario {
+      margin-top: 0;
+   }
+
+   .contact-form {
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+      margin-top: 1rem;
+   }
+
+   .input-name {
+      width: 20rem;
+      height: 2rem;
+      border: none;
+   }
+
+   .contact-form textarea {
+      resize: none;
+      width: 20rem;
+      height: 5rem;
+      margin-top: 1rem;
+      border: none;
+   }
+
+   .btn-enviar {
+      font-size: 1.2rem;
+      padding: .5rem;
+      width: 10rem;
+      margin-top: 1rem;
+   }
+
+   footer {
+      margin-top: 2rem;
+      height: 4rem;
+   }
+
+   footer h2 {
+      font-size: 1rem;
+      text-align: center;
+      padding-top: .5rem;
+   }
+   /* ====================================================== */
+
+   /* ============================ LOGIN ========================== */
+   .login__container{
+      justify-content: center;
+   }
+   .login-input{
+      color: #424242;
+      font-size: 1rem;
+      width: 18rem;
+      height: 3rem;
+      padding-left: 1rem;
+      display: block;
+      margin-bottom: 2rem;
+   }
+
+   .btn-entrar {
+      width: 18rem;
+      margin-left: .5rem;
+   }
+   /* ============================================================= */
+}
